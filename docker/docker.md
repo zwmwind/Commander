@@ -29,4 +29,3 @@ docker run -itd --name redis -p 6379:6379 -v $PWD/conf/redis.conf:/etc/redis/red
 ```
 docker run -itd --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql --restart=always
 ```
-  
